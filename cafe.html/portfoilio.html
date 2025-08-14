@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+    scroll-behavior: smooth;
+}
+
+    body {
+        background-image: url(StockCake-Morning\ cafe\ delight_1755183113.jpg);
+        background-repeat: no-repeat;
+    background-size: 100%
+    }
+
+    /* Navigation */
+    .container {
+        width: 100%;
+        padding: 15px;
+        background-color: #000000;
+        color: rgb(51, 80, 14);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container nav a {
+        color: white;
+        width: 100%;
+        margin: 0 10px;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .container nav a:hover {
+        text-decoration: underline;
+    }
+
+    /* Home section */
+    img{
+        width: 100%;
+        max-width: 700px;
+        object-fit: cover;
+        vertical-align: middle;
+    }
+    .wrapper{
+padding: 0 15px;
+display: flex;
+flex-wrap: wrap;align-items: center;
+justify-content: space-around;
+gap: 5rem;
+    }
+    .intro{
+        flex: 1;
+        background-color: white;
+        padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+    }
+    
+    /* Mission section */
+    .hero {
+  background: url('https://via.placeholder.com/1200x400/808000/ffffff') no-repeat center center/cover;
+  color: rgb(0, 0, 0);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-text {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  width: 50%;
+}
+
+    /* About section */
+    #about {
+        background: white;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 8px;
+    }
+
+    /* Insights gallery */
+    .gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 5px;
+  border: 3px solid olive;
+}
+
+/* CONTACT SECTION */
+.section.dark p {
+  color: black;
+}
+
+    /* Contact form */
+    .contact-container {
+        background: white;
+        width: 400px;
+        margin: 30px auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .contact-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+    textarea {
+        resize: none;
+        height: 120px;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #000000;
+        color: white;
+        border: none;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #218838;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 30px;
+    }
+</style>
+
+</head>
+<body>
+<div class="container">
+    <h1 class="logo">Cozy Hut</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#mission">Mission</a>
+        <a href="#about">About Us</a>
+        <a href="#insights">Cafe Insights</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+</div>
+
+<!-- Home -->
+<div id="home" class="wrapper">
+    <div class="profile">
+        <img src="cozy-coffee-shop-stockcake.jpg">
+    </div>
+    <div class="intro">
+        <h1>Home</h1>
+        <p>Welcome to Cozy Hut, your neighborhood retreat for exceptional coffee and heartfelt connections. Here, every cup is brewed with care, using only the finest, ethically sourced beans from trusted farms around the world. Step inside and you’ll be greeted by the rich aroma of freshly ground coffee, the comforting hum of conversation, and a space designed to feel like home. Whether you’re stopping by for a morning espresso, lingering over a creamy latte with friends, or finding a quiet corner to work or read, Cozy Hut offers the perfect blend of flavor, atmosphere, and community spirit. Our menu features not just coffee, but also fresh pastries, wholesome snacks, and seasonal specialties that pair beautifully with your drink. We believe coffee is more than a beverage, it’s an experience, a ritual, and a reason to connect. Come in, relax, and make Cozy Hut part of your everyday story.</p>
+    </div>
+</div>
+
+<!-- Mission -->
+<section id="mission" class="hero">
+    <div class="hero-text">
+        <h2>Mission</h2>
+        <p>“To serve freshly brewed coffee and wholesome food in a warm, inviting space where every guest feels at home.”</p>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Cozy Hut, our story begins with a simple passion-crafting coffee that warms the heart and brings people together. Founded by coffee lovers who believe in quality and sustainability, we source our beans from small farms where fair trade and ethical practices ensure every sip supports both the farmer and the environment. Our skilled baristas blend artistry and precision to create drinks that are as beautiful as they are delicious. Beyond coffee, Cozy Hut is designed as a community space — a place where ideas are shared, friendships are nurtured, and moments are celebrated. From our rustic décor to our friendly service, every detail is crafted to make you feel at home. Whether you’re a regular or a first-time visitor, you’ll always find a warm welcome here. At Cozy Hut, we don’t just serve coffee .We serve connection, comfort, and a little bit of joy in every cup.</p>
+</section>
+
+<!-- Insights -->
+<section id="insights" class="section">
+   <center><h2>Insights</h2></center>
+    <div class="gallery">
+        <img src="StockCake-Barista prepares coffee_1755181331.jpg">
+        <img src="StockCake-Cozy Coffee Corner_1755181311.jpg">
+        <img src="StockCake-Cozy Coffee Shop_1755181285.jpg">
+    </div>
+</section>
+
+<!-- Contact -->
+<div id="contact" class="contact-container">
+    <h2>Contact Us</h2><br>
+    <form action="#" method="post">
+        <label for="name">Full Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name..." required><br>
+
+        <label for="email">Email Address</label><br>
+        <input type="email" id="email" name="email" placeholder="Your email..." required><br>
+
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number..." required><br>
+
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message" placeholder="Write your message..." required></textarea><br>
+
+        <button type="submit">Send Message</button><br>
+    </form>
+</div>
+ <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Elite Threads. All rights reserved.</p>
+  </footer>
+</body>
+</html>
